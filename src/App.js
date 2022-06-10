@@ -7,6 +7,7 @@ import directories from './pages/directories';
 import Idle from './pages/Idle';
 import nab from './pages/newsAndbulletin';
 import { Outlet, Link,BrowserRouter, Routes, Route } from "react-router-dom";
+import navbar from './components/nav-bar/navbar';
 
 function App() {
   return (
