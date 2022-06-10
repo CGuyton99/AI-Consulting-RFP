@@ -1,0 +1,59 @@
+.homeback {
+    background-image: url('../assets/homebackground.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+  }
+
+  .calendarback {
+    background-image: url('../assets/calendarbackground.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+  }
+
+  .careerback {
+    background-image: url('../assets/careersbackground.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+  }
+
+  .directoryback {
+    background-image: url('../assets/directorybackground.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+  }
+
+  .fnaback {
+    background-image: url('../assets/fnabackground.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+  }
+
+  .nabback {
+    background-image: url('../assets/nabbackground.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+  }
+
+  .idleback {
+    background: linear-gradient(to top, #5c5c5cc0, #000000e3), url('../assets/idlebackground.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+  }
+
+  main {
+    min-height: 100vh;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(228, 252, 121, 0.089),
+      rgb(0, 0, 0)
+    );
+    padding: 25px;
+  }
+  

@@ -1,13 +1,13 @@
 import React from "react";
-import './index.css'
-function Home(){
+import './index.css';
+
+function Idle(){
     return(
-   <body className="homeback">
+   <body className="idleback">
        <main>
         
        </main>
    </body>
     );
 };
-export default Home;
-
+export default Idle;
