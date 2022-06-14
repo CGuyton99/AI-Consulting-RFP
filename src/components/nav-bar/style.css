@@ -1,0 +1,14 @@
+.App {
+    text-align: center;
+}
+
+navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background: rgb(20, 170, 138);
+    color: antiquewhite;
+    position: relative;
+    z-index: 1;
+}

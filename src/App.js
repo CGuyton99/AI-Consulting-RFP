@@ -11,7 +11,9 @@ import navbar from './components/nav-bar/navbar';
 
 function App() {
   return (
+    <div>
       <Home/>
+    </div>  
   )
 };
 
