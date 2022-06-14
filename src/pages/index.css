@@ -1,59 +1,103 @@
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(228, 252, 121, 0.089),
+    rgb(0, 0, 0)
+  );
+}
+header {
+  font-family: "Univers", Helvetica, sans-serif;
+}
+p {
+  font-family: "Univers", Helvetica, sans-serif;
+}
+@font-face {
+  font-family: "Univers";
+  src: url("../assets/fonts/Univers-Font/UniversBlack.ttf");
+  src: url("../assets/fonts/Univers-Font/UniversBlack.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: "Univers Light";
+  src: url("../assets/fonts/Univers-Font/Univers-light-normal.ttf");
+  src: url("../assets/fonts/Univers-Font/Univers-light-normal.ttf")
+      format("truetype");
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
 .homeback {
-    background-image: url('../assets/homebackground.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 100%;
-  }
+  background-image: url("../assets/homebackground.jpg");
+  background-size: cover;
+  background-position: relative;
+  height: 100%;
+}
 
-  .calendarback {
-    background-image: url('../assets/calendarbackground.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 100%;
-  }
+.calendarback {
+  background-image: url("../assets/calendarbackground.jpg");
+  background-size: cover;
+  background-position: relative;
+  height: 100%;
+}
 
-  .careerback {
-    background-image: url('../assets/careersbackground.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 100%;
-  }
+.careerback {
+  background-image: url("../assets/careersbackground.jpg");
+  background-size: cover;
+  background-position: relative;
+  height: 100%;
+}
 
-  .directoryback {
-    background-image: url('../assets/directorybackground.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 100%;
-  }
+.directoryback {
+  background-image: url("../assets/directorybackground.jpg");
+  background-size: cover;
+  background-position: relative;
+  height: 100%;
+}
 
-  .fnaback {
-    background-image: url('../assets/fnabackground.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 100%;
-  }
+.fnaback {
+  background-image: url("../assets/fnabackground.jpg");
+  background-size: cover;
+  background-position: relative;
+  height: 100%;
+}
 
-  .nabback {
-    background-image: url('../assets/nabbackground.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 100%;
-  }
+.nabback {
+  background-image: url("../assets/nabbackground.jpg");
+  background-size: cover;
+  background-position: relative;
+  height: 100%;
+}
 
-  .idleback {
-    background: linear-gradient(to top, #5c5c5cc0, #000000e3), url('../assets/idlebackground.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 100%;
-  }
+.idleback {
+  background: linear-gradient(to top, #5c5c5cc0, #000000e3),
+    url("../assets/idlebackground.jpg");
+  background-size: cover;
+  background-position: relative;
+  height: 100%;
+}
 
-  main {
-    min-height: 100vh;
-    background-image: linear-gradient(
-      to bottom,
-      rgba(228, 252, 121, 0.089),
-      rgb(0, 0, 0)
-    );
-    padding: 25px;
-  }
-  
+.homesection {
+  position: static;
+  display: block;
+  float: left;
+  margin: 100px 42px;
+  background-color: rgba(255, 255, 255);
+  border-radius: 16px;
+  outline: 10px, white;
+  width: 342px;
+  height: 475px;
+  padding: 1vw;
+  overflow-wrap: initial;
+  border: 1px solid rgb(68, 68, 68);
+  background-color: rgba(255, 255, 255, 0.397);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.089),
+    rgb(195, 209, 230, 0.5)
+  );
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
