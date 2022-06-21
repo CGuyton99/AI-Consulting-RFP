@@ -1,12 +1,10 @@
 import React from "react";
 import "./index.css";
-import navbar from "../components/nav-bar/navbar";
 function Home() {
   return (
     <body className="homeback">
-      <navbar/>
       <main>
-                <div className="homesection">
+        <div className="homesection">
             <div className="center">
                 <h1>Quick Links/Map</h1>
             </div>

@@ -2,13 +2,13 @@
     text-align: center;
 }
 
-navbar{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background: rgb(20, 170, 138);
+    min-width: 100vw;
+    background: rgba(0, 0, 0, 0.75);
     color: antiquewhite;
-    position: relative;
-    z-index: 1;
+    position: absolute;
 }
