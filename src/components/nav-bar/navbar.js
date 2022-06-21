@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css";
 
-function navbar() {
+/*function navbar() {
   return (
 	<nav>
     <h3>
@@ -19,4 +19,36 @@ function navbar() {
   )
 }
 
-export default navbar
+export default navbar*/
+
+import { slide as Menu } from 'react-burger-menu';
+
+export default props => {
+  return (
+    <Menu>
+      <a className="menu-item" href="/">
+        Home
+      </a>
+
+      <a className="menu-item" href="/calendar">
+        Calendar
+      </a>
+
+      <a className="menu-item" href="/careers">
+        Careers
+      </a>
+
+      <a className="menu-item" href="/directories">
+        Directory
+      </a>
+
+      <a className="menu-item" href="/fna">
+        Food & Amenities
+      </a>
+
+      <a className="menu-item" href="/newsAndbulletin">
+        News & Bulletin
+      </a>
+    </Menu>
+  );
+};
