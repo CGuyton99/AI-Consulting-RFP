@@ -1,6 +1,6 @@
 import React from "react";
 
-function directories(){
+function Directories(){
     return(
         <body className="directoryback">
         <main>
@@ -9,4 +9,4 @@ function directories(){
     </body>
     )
 }
-export default directories;
+export default Directories;
