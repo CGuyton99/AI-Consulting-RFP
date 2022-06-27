@@ -41,7 +41,9 @@ function Navbar() {
   return (
     <div className="overlay">
       <div className="centeralign">
-        <Link to ='/'><img src={MilwaukeeCountyLogo} className="resize"></img></Link>
+        <Link to="/">
+          <img src={MilwaukeeCountyLogo} className="resize"></img>
+        </Link>
       </div>
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="navbar">
@@ -49,7 +51,7 @@ function Navbar() {
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
           <div className="text-right">
-            <DateTime/>
+            <DateTime />
             <div id="weather">
               <p id="temp"></p>
             </div>{" "}

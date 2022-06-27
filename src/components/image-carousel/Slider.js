@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
-import { sliderData } from "../../slider-data";
+import { sliderData } from "./slider-data";
+import OP from "./Slider/OP.jpg";
 import "./Slider.scss";
 
 const Slider = () => {
@@ -36,9 +37,8 @@ const Slider = () => {
     return () => clearInterval(slideInterval);
   }, [currentSlide]);
 
-   return (
-  <div className="slider">
-      
+  return (
+    <div className="slider">
       {sliderData.map((slide, index) => {
         return (
           <div
@@ -54,7 +54,7 @@ const Slider = () => {
         );
       })}
     </div>
-   )
+  );
 };
 
 export default Slider;

@@ -1,16 +1,16 @@
 import React from "react";
-import './index.css';
-import Slider from "../components/image-carousel/Slider"
+import "./index.css";
+import Slider from "../components/image-carousel/Slider";
 
-function Idle(){
-    return(
+function Idle() {
+  return (
     <body className="idleback">
-       <main>
+      <main>
         <div>
-            <Slider/>
+          <Slider />
         </div>
-       </main>
-   </body>
-    );
-};
+      </main>
+    </body>
+  );
+}
 export default Idle;
