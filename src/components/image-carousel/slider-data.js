@@ -1,13 +1,26 @@
-import OP from './Slider/OP.jpg';
+import BlanketDrive from './Sliders/BlanketDrive.png';
+import ClarkCoolidge from './Sliders/ClarkCoolidge.jpg';
+import CPRAED from './Sliders/CPR&AEDAwarenessWeek.jpg';
+import FightForAirClimb from './Sliders/FightForAirClimb.jpg';
+import HealHood from './Sliders/HealHood.jpg';
+import CommunityMeeting from './Sliders/instacommunity-meeting-flyer.png';
 export const sliderData = [
   {
-    image: OP,
+    image: BlanketDrive,
   },
   {
-    image: "https://assets.pokemon.com/static2/_ui/img/og-default-image.jpeg",
+    image: ClarkCoolidge,
   },
   {
-    image:
-      "https://cdn.vox-cdn.com/thumbor/mdLuOjsKG1UnT0Cmny3fBhpEWrI=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22328814/Screenshot_20210220_184520__01_min.jpg ",
+    image: CPRAED,
+  },
+  {
+    image: FightForAirClimb,
+  },
+  {
+    image: HealHood,
+  },
+  {
+    image: CommunityMeeting,
   },
 ];
