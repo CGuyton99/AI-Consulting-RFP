@@ -33,7 +33,7 @@ function Nab() {
                 Lowering Energy Costs for Milwaukee Count
               </li>
             </ul>
-            <div className="right">Load More</div>
+            <div className="right"><a href="https://aicmke.gtsb.io/">Load More</a></div>
           </p>
         </div>
       </main>

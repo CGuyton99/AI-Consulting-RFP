@@ -41,7 +41,7 @@ function Home() {
             </ul>
           </p>
           <div className="right">
-            <p>See More</p>
+            <p><a href="https://aicmke.gtsb.io/">See More</a></p>
           </div>
         </div>
       </main>
