@@ -28,20 +28,23 @@ function Home() {
           </div>
           <p className="linespacing">
             <ul>
-              <li>test</li>
-              <li>test2</li>
-              <li>test3</li>
-              <li>Longer headline goes here</li>
               <li>
-                Long headline that is very big and will wrap in the div goes
-                here, is this working? Please let this work
+              County Supervisors Denounce Supreme Court Decision to Overturn Roe v. Wade
               </li>
-              <li>Okay it worked, I'm relieved</li>
-              <li>Talking to myself</li>
+              <li>
+                Chairwoman Nicholson Proposal to Reimagine County Board
+                Committees Adopted by County Board
+              </li>
+              <li>
+                County Board Unanimously Adopts Resolution Repudiating
+                Discriminatory Covenants
+              </li>
             </ul>
           </p>
           <div className="right">
-            <p><a href="https://aicmke.gtsb.io/">See More</a></p>
+            <p>
+              <a href="https://aicmke.gtsb.io/">See More</a>
+            </p>
           </div>
         </div>
       </main>

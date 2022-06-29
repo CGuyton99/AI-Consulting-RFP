@@ -6,9 +6,12 @@ function Idle() {
   return (
     <body className="idleback">
       <main>
-        <div>
-          <Slider />
-        </div>
+          <div>
+            <Slider />
+          </div>
+          <div className="idletap">
+            <h1>TAP TO START</h1>
+          </div>
       </main>
     </body>
   );
