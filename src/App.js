@@ -21,13 +21,20 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/calendar" element={<Calendar />} />
-          <Route path="/directories" element={<Directories />} />
+          <Route path="/directories" element={<About />} />
           <Route path="/news" element={<Nab />} />
           <Route path="/idle" element={<Idle />} />
         </Routes>
       </Router>
     </>
   );
+}
+
+function About() {
+  // 👇️ redirect to external URL
+  window.location.replace('http://localhost:3000');
+
+  return null;
 }
 
 export default App;

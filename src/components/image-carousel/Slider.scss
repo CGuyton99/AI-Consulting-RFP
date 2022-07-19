@@ -13,7 +13,7 @@
   height: 100%;
   opacity: 0;
   transform: translateX(-50%);
-  transition: all 0.5s ease;
+  transition: all 0.25s ease;
 }
 
 @media screen and (min-width: 600px) {
@@ -73,7 +73,7 @@
 .current .content {
   opacity: 1;
   transform: translateX(0);
-  transition: all 0.5s ease;
+  transition: all 0.25s ease;
 }
 
 .arrow {

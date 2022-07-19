@@ -1,9 +1,9 @@
 import React from "react";
-import "./index.css";
 import Slider from "../components/image-carousel/Slider";
-
+import {Link} from "react-router-dom"
 function Idle() {
   return (
+    <Link to="/">
     <body className="idleback">
       <main>
           <div>
@@ -14,6 +14,7 @@ function Idle() {
           </div>
       </main>
     </body>
+    </Link>
   );
 }
 export default Idle;

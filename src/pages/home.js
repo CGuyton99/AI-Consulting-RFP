@@ -1,5 +1,9 @@
 import React from "react";
 import "./index.css";
+import Map from "../assets/Map.png";
+import { Link } from "react-router-dom";
+
+
 function Home() {
   return (
     <body className="homeback">
@@ -8,6 +12,23 @@ function Home() {
           <div className="center">
             <h1>Quick Links/Map</h1>
           </div>
+          <div className="imageContainer">
+              <img tabindex="1" src={Map} className="map"></img>
+            </div>
+          <p className="linespacing">
+            <ul>
+              <li>
+                <Link to="/careers">Careers</Link>
+              </li>
+              <li>
+                <Link to="/calendar">Calendar & Events</Link>
+              </li>
+              <li>
+                <Link to="/directories">Directories</Link>
+              </li>
+            </ul>
+          </p>
+
         </div>
         <div className="homesection">
           <div className="center">
@@ -29,7 +50,8 @@ function Home() {
           <p className="linespacing">
             <ul>
               <li>
-              County Supervisors Denounce Supreme Court Decision to Overturn Roe v. Wade
+                County Supervisors Denounce Supreme Court Decision to Overturn
+                Roe v. Wade
               </li>
               <li>
                 Chairwoman Nicholson Proposal to Reimagine County Board
@@ -43,12 +65,14 @@ function Home() {
           </p>
           <div className="right">
             <p>
-              <a href="https://aicmke.gtsb.io/">See More</a>
+              <a href="https://aicmke.gtsb.io/blog/news">See More</a>
             </p>
           </div>
-        </div>
+        </div> 
       </main>
     </body>
   );
 }
+
+
 export default Home;

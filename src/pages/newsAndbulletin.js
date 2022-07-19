@@ -41,7 +41,7 @@ function Nab() {
             </ul>
             </div>
             <div className="right">
-              <a href="https://aicmke.gtsb.io/">Load More</a>
+              <a href="https://aicmke.gtsb.io/blog/news">Load More</a>
             </div>
           </p>
         </div>
