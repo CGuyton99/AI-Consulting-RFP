@@ -6,16 +6,16 @@
 }
 
 .resize {
-  width: 140px;
+  width: 145px;
   height: auto;
   position: absolute;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 .centeralign {
   width: 0vw;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 135px;
+  padding-right: 150px;
 }
 .text-right {
   display: block;
@@ -31,11 +31,11 @@
 .overlay {
   height: 0vh;
   z-index: 9;
-  position:relative;
+  position: relative;
 }
 .navbar {
   background-color: rgba(0, 0, 0, 0.75);
-  height: 60px;
+  height: 70px;
   display: flex;
   justify-content: start;
   align-items: center;

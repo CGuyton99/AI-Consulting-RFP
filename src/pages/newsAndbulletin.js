@@ -9,31 +9,40 @@ function Nab() {
           <div className="center">
             <h1>News & Bulletin</h1>
           </div>
-          <p>
-            <ul>
+          <p className="textsize">
+            <div className="linespacing">
+            <ul className="textsize">
               <li>Upcoming changes to kiosk systems county-wide!</li>
               <li>
-                Milwaukee County Executive David Crowley Marks Two Years in
-                Office, Observes Victories in Equity
+                County Supervisors Denounce Supreme Court Decision to Overturn
+                Roe v. Wade
               </li>
               <li>
-                County Supervisors Congratulate José G. Pérez on Election as
-                Common Council President
+                County Board Adopts Chairwoman Nicholson Proposal to Fund Roller
+                Skating at Red Arrow Park
               </li>
               <li>
-                Supervisor Martin Praises MCTS Drivers, Calls on Community to
-                Act Respectfully on Public Transit
+                Chairwoman Nicholson Proposal to Reimagine County Board
+                Committees Adopted by County Board
               </li>
               <li>
-                Milwaukee Recognized with Nation's Lowest Unsheltered Homeless
-                Population
+                County Board Unanimously Adopts Resolution Repudiating
+                Discriminatory Covenants
               </li>
               <li>
-                County Executive David Crowley Thanks President Biden for
-                Lowering Energy Costs for Milwaukee Count
+                Wasserman Resolution Funding McKinley Beach Repairs Approved by
+                County Board
+              </li>
+              <li>
+                Supervisors Taylor, Clancy, Coggs-Jones Decry Recommendation of
+                Rejection for Housing Insecurity, Eviction and Racial Equity
+                Subcommittee
               </li>
             </ul>
-            <div className="right"><a href="https://aicmke.gtsb.io/">Load More</a></div>
+            </div>
+            <div className="right">
+              <a href="https://aicmke.gtsb.io/blog/news">Load More</a>
+            </div>
           </p>
         </div>
       </main>

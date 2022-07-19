@@ -3,7 +3,9 @@ import React from "react";
 function Directories() {
   return (
     <body className="directoryback">
-      <main></main>
+      <main>
+
+      </main>
     </body>
   );
 }
