@@ -60,6 +60,7 @@ function Careers() {
         <div className="careertopblock">
           <h1>CAREER HUB</h1>
         </div>
+        <div className="sectiongridscareers">
         <div className="careersection">
           <div className="center">
             <h1>Current Listings</h1>
@@ -81,6 +82,7 @@ function Careers() {
           <div>
             <Faq data={data} styles={styles} config={config} />
           </div>
+        </div>
         </div>
       </main>
     </body>

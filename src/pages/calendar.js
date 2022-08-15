@@ -7,6 +7,7 @@ function Calendar() {
   return (
     <body className="calendarback">
       <main>
+        <div className="sectiongridscareers">
         <div className="calendarsection">
           <FullCalendar
             plugins={[dayGridPlugin]}
@@ -33,6 +34,7 @@ function Calendar() {
           <div className="right">
             <p>See More</p>
           </div>
+        </div>
         </div>
       </main>
     </body>

@@ -43,7 +43,8 @@ p {
   background-image: url("../assets/homebackground.jpg");
   background-size: cover;
   background-position: relative;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   position: relative;
 }
 
@@ -57,7 +58,8 @@ p {
   background-image: url("../assets/calendarbackground.jpg");
   background-size: cover;
   background-position: relative;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   position: relative;
 }
 
@@ -65,7 +67,8 @@ p {
   background-image: url("../assets/careersbackground.jpg");
   background-size: cover;
   background-position: absolute;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   position: relative;
 }
 
@@ -73,7 +76,8 @@ p {
   background-image: url("../assets/directorybackground.jpg");
   background-size: cover;
   background-position: absolute;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   position: relative;
 }
 
@@ -81,15 +85,16 @@ p {
   background-image: url("../assets/fnabackground.jpg");
   background-size: cover;
   background-position: relative;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 .nabback {
   background-image: url("../assets/nabbackground.jpg");
   background-size: cover;
   background-position: relative;
-  height: 100%;
-  position: relative;
+  height: 100vh;
+  width: 100vw;
 }
 
 .idleback {
@@ -97,7 +102,8 @@ p {
     url("../assets/idlebackground.jpg");
   background-size: cover;
   background-position: relative;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   position: relative;
   z-index: 10;
 }
@@ -113,26 +119,37 @@ p {
   display: block;
   position: fixed;
   width: 100vw;
-  height: 150px;
+  margin-top: 88vh;
   color: rgb(0, 0, 0);
-  margin-top: -35px;
   background-color: rgb(255, 238, 2);
   z-index: 12;
 }
 
-.idletap h1 {
-  padding-bottom: 100px;
+.sectiongrids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0vw;
+  width: 100vw;
+  margin-top: 9vh;
+  height: 90vh;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.sectiongridscareers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0vw;
+  width: 100vw;
 }
 
 .homesection {
-  position: static;
-  display: block;
-  float: left;
-  margin: 25vh 42px;
-  background-color: rgba(255, 255, 255);
+  position: relative;
   border-radius: 16px;
   outline: 10px, white;
-  width: 342px;
+  width: 25vw;
   height: 475px;
   padding: 1vw;
   overflow-wrap: initial;
@@ -148,8 +165,6 @@ p {
 
 .careersection {
   position: static;
-  display: block;
-  float: left;
   margin: 75px 46px;
   background-color: rgba(255, 255, 255);
   border-radius: 16px;
@@ -170,8 +185,6 @@ p {
 
 .calendarsection {
   position: static;
-  display: block;
-  float: left;
   margin: 21vh 46px;
   background-color: rgba(255, 255, 255);
   border-radius: 16px;
@@ -192,8 +205,6 @@ p {
 
 .nabsection {
   position: static;
-  display: block;
-  float: left;
   margin: 170px 42px;
   background-color: rgba(255, 255, 255);
   border-radius: 16px;
@@ -218,8 +229,8 @@ p {
   margin-top: 70px;
   padding: 15px 15px;
   background-color: #222223;
-  min-width: 1vw;
-  height: 120px;
+  width: 100vw;
+  height: 15vh;
   background-image: linear-gradient(
     to bottom,
     rgba(161, 161, 161, 0.014),
