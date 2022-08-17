@@ -2,7 +2,6 @@ import React from "react";
 import "./index.css";
 import Map from "../assets/Map.png";
 import { Link } from "react-router-dom";
-
 function Home() {
   return (
     <body className="homeback">
@@ -16,7 +15,7 @@ function Home() {
               <img tabindex="1" src={Map} className="map"></img>
             </div>
             <p className="linespacing">
-              <ul>
+              <ul className="homelist">
                 <li>
                   <Link to="/careers">Careers</Link>
                 </li>

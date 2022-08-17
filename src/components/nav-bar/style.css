@@ -6,16 +6,17 @@
 }
 
 .resize {
-  width: 145px;
+  width: 100px;
   height: auto;
   position: absolute;
-  padding-top: 10px;
+  padding-top: 2.3vh;
+  left: 50%;
+  transform: translate(-50%);
 }
 .centeralign {
-  width: 0vw;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 150px;
+  width: 100vw;
+  position: absolute;
+  animation: pulse 3s linear infinite;
 }
 .text-right {
   display: block;
@@ -35,7 +36,7 @@
 }
 .navbar {
   background-color: rgba(0, 0, 0, 0.75);
-  height: 9.3vh;
+  height: 70px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -101,6 +102,23 @@
   align-items: center;
 }
 
+ul.nav-menu-items a {
+  font-weight: normal;
+  text-transform: none;
+}
+
 span {
   margin-left: 16px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+  75% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.95);
+  }
 }

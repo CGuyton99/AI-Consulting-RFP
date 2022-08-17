@@ -41,7 +41,7 @@ function Navbar() {
   return (
     <div className="overlay">
       <div className="centeralign">
-        <Link to="/">
+        <Link to="/home">
           <img src={MilwaukeeCountyLogo} className="resize"></img>
         </Link>
       </div>

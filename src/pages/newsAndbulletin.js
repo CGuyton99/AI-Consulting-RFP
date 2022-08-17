@@ -5,6 +5,7 @@ function Nab() {
   return (
     <body className="nabback">
       <main>
+        <div className="sectiongridscareers">
         <div className="nabsection">
           <div className="center">
             <h1>News & Bulletin</h1>
@@ -44,6 +45,7 @@ function Nab() {
               <a href="https://aicmke.gtsb.io/blog/news">Load More</a>
             </div>
           </p>
+        </div>
         </div>
       </main>
     </body>

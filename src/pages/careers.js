@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
 import Faq from "react-faq-component";
-
 const data = {
   title: "FAQ",
   rows: [
@@ -57,9 +56,6 @@ function Careers() {
   return (
     <body className="careerback">
       <main>
-        <div className="careertopblock">
-          <h1>CAREER HUB</h1>
-        </div>
         <div className="sectiongridscareers">
         <div className="careersection">
           <div className="center">

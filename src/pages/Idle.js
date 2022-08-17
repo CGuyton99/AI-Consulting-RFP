@@ -9,7 +9,7 @@ import Poster6 from "../assets/Poster6.png";
 import "../components/image-carousel/Slider.css";
 function Idle() {
   return (
-    <Link to="/">
+    <Link to="/home">
       <body className="idleback">
         <div className="slider">
           <div className="slide-track">

@@ -140,9 +140,14 @@ p {
 
 .sectiongridscareers {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 0vw;
   width: 100vw;
+  margin-top: 9vh;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
 }
 
 .homesection {
@@ -165,13 +170,13 @@ p {
 
 .careersection {
   position: static;
-  margin: 75px 46px;
+  margin: 75px 30px;
   background-color: rgba(255, 255, 255);
   border-radius: 16px;
   outline: 10px, white;
   width: 560px;
-  height: 365px;
-  padding: 1vw;
+  height: 420px;
+  padding: 2vw;
   overflow-wrap: initial;
   border: 1px solid rgb(68, 68, 68);
   background-color: rgba(255, 255, 255, 0.555);
@@ -226,7 +231,7 @@ p {
 .careertopblock {
   text-align: center;
   color: white;
-  margin-top: 70px;
+  margin-top: 9.3vh;
   padding: 15px 15px;
   background-color: #222223;
   width: 100vw;
@@ -245,6 +250,12 @@ p {
   height:100vh;
 } */
 
+.fc a {
+  text-transform: none;
+  color: black;
+  font-weight: normal;
+}
+
 .map {
   display: block;
   outline: auto;
@@ -253,20 +264,49 @@ p {
   margin-left: 31px;
   width: 20vw;
   height: auto;
-  transition:ease-in-out 0.5s;
 }
 
-.imageContainer > img:focus {
-  width: 78vw;
+.map:focus {
+  width: 75vw;
   height: auto;
-  margin-top: -243px;
-margin-left: -57px;
-  padding-left: 151px;
-  padding-right: 150px;
-  padding-top:35px;
-  padding-bottom:35px;
+  margin: auto;
+  right: 10vw;
   background-color: rgba(0, 0, 0, 0.726);
   position: relative;
-  transition:ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
   outline: none;
+  z-index: 20;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+
+.imageContainer:focus-within {
+  display: flex;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.726);
+  background-size: cover;
+  width: 120vw;
+  height: 110vh;
+  right: 5vw;
+  bottom: 40vh;
+  z-index: 20;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #008080;
+}
+
+a:hover {
+  color: white;
+}
+
+.homelist {
+  line-height: 40px;
+  margin: 8vh 0 10vw 0;
+  list-style: none;
 }
