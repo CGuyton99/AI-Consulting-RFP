@@ -14,10 +14,10 @@ main {
   line-height: 36px;
 }
 header {
-  font-family: "Univers", Helvetica, sans-serif;
+  font-family: "Univers";
 }
 p {
-  font-family: "Univers", Helvetica, sans-serif;
+  font-family: "Univers";
 }
 .linespacing {
   line-height: 30px;
